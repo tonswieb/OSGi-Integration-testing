@@ -1,0 +1,6 @@
+<blueprint xmlns="http://www.osgi.org/xmlns/blueprint/v1.0.0">
+
+	<bean id="helloWorld" class="com.finalist.test.osgi.HelloWorldImpl"/>
+    <service ref="helloWorld" interface="com.finalist.test.osgi.HelloWorld"/>
+
+</blueprint>
